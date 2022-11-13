@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>diemtrungbinh</title>
+</head>
+<body>
+<script>
+  let a= +prompt("nhập điểm kiểm tra:");
+  let b= +prompt("nhập điểm kiểm tra giữa kỳ:");
+  let c= +prompt("nhập điểm kiểm tra cuối kỳ:");
+  let av= (a+b+c)/3;
+  if (av<5) alert("học lực yếu");
+    else {
+      if (5 <=av && av<= 6) alert("học lực trung bình");
+        else {
+          if (7 <=av && av <= 8) alert("học lực khá");
+            else alert("học lực giỏi");
+      }
+  }
+</script>
+</body>
+</html>
